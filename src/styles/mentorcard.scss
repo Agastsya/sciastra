@@ -1,0 +1,17 @@
+.newcard {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(90deg, #234eb0 3.66%, #9010b0 100%);
+  border-bottom-right-radius: 33px;
+  border-top-left-radius: 33px;
+  background-size: 200% 200%;
+  animation: changebg 15s ease infinite;
+  animation-name: changebg;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
