@@ -106,10 +106,18 @@ const Home = () => {
   return (
     <>
       <Box maxW={'100%'} maxH={'100%'} mx={'2vw'}>
-        <Heading textAlign={'center'} className={'headingstyle'}>
+        <Heading
+          textAlign={'center'}
+          fontSize={'5xl'}
+          className={'headingstyle'}
+        >
           Team Page
         </Heading>
-        <Heading textAlign={'center'} className={'headingstyle'}>
+        <Heading
+          fontSize={'3xl'}
+          textAlign={'center'}
+          className={'headingstyle'}
+        >
           Learn From Scientists,Top Scholars From Top Institutes in the world
         </Heading>
         <Stack
@@ -127,14 +135,18 @@ const Home = () => {
             pb={'5'}
             justifyContent={'flex-end'}
             alignItems={'flex-end'}
-            fontSize={['xl', '3xl']}
+            fontSize={['xl', '2xl']}
             fontWeight={'bold'}
             className={'headingstyle'}
           >
             ........ and so on
           </Text>
         </Stack>
-        <Heading textAlign={'center'} className={'headingstyle'}>
+        <Heading
+          fontSize={'3xl'}
+          textAlign={'center'}
+          className={'headingstyle'}
+        >
           Meet Your Mentors
         </Heading>
 
@@ -148,7 +160,7 @@ const Home = () => {
           ))}
         </Stack>
 
-        <Heading className="headingstyle" textAlign={'center'}>
+        <Heading fontSize={'3xl'} className="headingstyle" textAlign={'center'}>
           Mentor and Advisor
         </Heading>
         <Stack
